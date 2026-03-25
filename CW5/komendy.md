@@ -391,9 +391,10 @@ whois kosmatka.pl
 
 **Właściwa odpowiedź (wynik):**
 ```text
-TIMEOUT
+created:                        2022.12.02 12:27:10
+last modified:                  2022.12.02 12:33:53
+renewal date:                   2032.12.02 12:27:10
 ```
-> **Uwaga:** Zapora sieciowa w pracowni blokuje ruch na porcie 43 używanym do zapytań WHOIS. W otwartej sieci to polecenie zwróciłoby dokładne daty ("created" oraz "renewal date").
 
 ---
 
