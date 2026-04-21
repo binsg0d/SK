@@ -75,3 +75,18 @@ Domain Name System (response)
         <Root>: type OPT
     [Request In: 1765]
     [Time: 0.000907485 seconds]
+## Pytanie 8
+
+GET / HTTP/1.1
+Host: mm.kosmatka.pl
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Connection: keep-alive
+
+## Pytanie 9
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=
+
+## Pytanie 10
+
+sudo tcpdump -i eth0 -w output.pcap
