@@ -89,26 +89,69 @@ nmap -sn 192.168.48.255/24
 
 **Właściwa odpowiedź (wynik):**
 ```text
-Starting Nmap 7.94SVN ( [https://nmap.org](https://nmap.org) ) at 2026-03-25 11:54 CET
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-04-22 12:24 CEST
 Nmap scan report for 192.168.48.2
-Host is up (0.0021s latency).
-Nmap scan report for user-Precision-3460 (192.168.48.72)
-Host is up (0.000065s latency).
-Nmap scan report for 192.168.48.77
 Host is up (0.0014s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for user-Precision-3460 (192.168.48.72)
+Host is up (0.000042s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.48.77
+Host is up (0.00051s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
 Nmap scan report for 192.168.48.79
-Host is up (0.0011s latency).
-Nmap scan report for 192.168.48.81
-Host is up (0.0012s latency).
+Host is up (0.00075s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
 Nmap scan report for 192.168.48.84
-Host is up (0.0012s latency).
-Nmap scan report for 192.168.48.85
-Host is up (0.0011s latency).
+Host is up (0.00048s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
 Nmap scan report for 192.168.48.87
-Host is up (0.00045s latency).
+Host is up (0.00049s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.48.88
+Host is up (0.00070s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 192.168.48.89
+Host is up (0.00062s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
 Nmap scan report for 192.168.48.90
-Host is up (0.00054s latency).
-Nmap done: 256 IP addresses (9 hosts up) scanned in 2.32 seconds
+Host is up (0.00067s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for user-Precision-3460 (192.168.49.1)
+Host is up (0.000075s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 512 IP addresses (13 hosts up) scanned in 3.25 seconds
+
 ```
 
 ---
