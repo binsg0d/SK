@@ -64,10 +64,7 @@ X
 **Co trzeba zrobić:** Wyszukaj pakiety DNS filtrem `dns.qry.name == "kosmatka.pl"`, rozwiń sekcję "Domain Name System" w szczegółach pakietu, a następnie skopiuj strukturę drzewa (Copy -> All Visible Items).
 
 **Odpowiedź:** 
-Frame 1767: 139 bytes on wire (1112 bits), 139 bytes captured (1112 bits) on interface enp0s31f6, id 0
-Ethernet II, Src: Fortinet_e4:71:ef (d4:76:a0:e4:71:ef), Dst: Dell_0c:83:57 (cc:96:e5:0c:83:57)
-Internet Protocol Version 4, Src: 10.30.0.31, Dst: 192.168.48.72
-User Datagram Protocol, Src Port: 53, Dst Port: 43766
+
 Domain Name System (response)
     Transaction ID: 0x4a59
     Flags: 0x8180 Standard query response, No error
